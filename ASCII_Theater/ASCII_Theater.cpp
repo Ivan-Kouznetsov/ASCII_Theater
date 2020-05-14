@@ -60,7 +60,7 @@ void print_lines(string filename)
             // print last frame
             display_frame(lines);
         }
-        catch (exception e)
+        catch (exception& e)
         {
             cout << e.what();
             read.close();
